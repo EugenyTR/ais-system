@@ -1,0 +1,20 @@
+.organizer-event {
+    cursor: pointer;
+    border-radius: 8px;
+    margin: auto 4px;
+    padding: 4px 8px;
+    font-weight: 600;
+    color: #1c1d20;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 28px;
+    box-sizing: border-box;
+    
+    small {
+      font-weight: 500;
+    }
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
